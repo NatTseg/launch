@@ -1,6 +1,6 @@
 {
   "title": "launch",
-  "description": "Launch Operations Control — SpaceX Style",
+  "description": "Launch Operations Control",
   "parent": "",
   "enabled": true,
   "inheritable": false
