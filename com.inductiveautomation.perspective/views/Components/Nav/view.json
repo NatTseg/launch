@@ -1,0 +1,256 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 1280,
+      "height": 900
+    }
+  },
+  "root": {
+    "type": "ia.container.coord",
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "children": [
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "✦  LAUNCH OPS",
+          "style": {
+            "color": "#FFFFFF",
+            "fontSize": "13px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "3px",
+            "fontWeight": "700",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 24,
+          "y": 0,
+          "width": 180,
+          "height": 60
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#333333"
+          }
+        },
+        "meta": {
+          "name": "vrule"
+        },
+        "position": {
+          "x": 220,
+          "y": 12,
+          "width": 1,
+          "height": 36
+        },
+        "children": []
+      },
+      {
+        "type": "ia.input.button",
+        "props": {
+          "text": "Overview",
+          "style": {
+            "backgroundColor": "transparent",
+            "color": "#AAAAAA",
+            "fontSize": "11px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "letterSpacing": "1px",
+            "textTransform": "uppercase",
+            "border": "none",
+            "borderRadius": "1px",
+            "cursor": "pointer"
+          }
+        },
+        "meta": {
+          "name": "btn"
+        },
+        "position": {
+          "x": 240,
+          "y": 14,
+          "width": 100,
+          "height": 32
+        }
+      },
+      {
+        "type": "ia.input.button",
+        "props": {
+          "text": "Launches",
+          "style": {
+            "backgroundColor": "transparent",
+            "color": "#AAAAAA",
+            "fontSize": "11px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "letterSpacing": "1px",
+            "textTransform": "uppercase",
+            "border": "none",
+            "borderRadius": "1px",
+            "cursor": "pointer"
+          }
+        },
+        "meta": {
+          "name": "btn"
+        },
+        "position": {
+          "x": 348,
+          "y": 14,
+          "width": 100,
+          "height": 32
+        }
+      },
+      {
+        "type": "ia.input.button",
+        "props": {
+          "text": "Vehicles",
+          "style": {
+            "backgroundColor": "transparent",
+            "color": "#AAAAAA",
+            "fontSize": "11px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "letterSpacing": "1px",
+            "textTransform": "uppercase",
+            "border": "none",
+            "borderRadius": "1px",
+            "cursor": "pointer"
+          }
+        },
+        "meta": {
+          "name": "btn"
+        },
+        "position": {
+          "x": 456,
+          "y": 14,
+          "width": 100,
+          "height": 32
+        }
+      },
+      {
+        "type": "ia.input.button",
+        "props": {
+          "text": "Pads",
+          "style": {
+            "backgroundColor": "transparent",
+            "color": "#AAAAAA",
+            "fontSize": "11px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "letterSpacing": "1px",
+            "textTransform": "uppercase",
+            "border": "none",
+            "borderRadius": "1px",
+            "cursor": "pointer"
+          }
+        },
+        "meta": {
+          "name": "btn"
+        },
+        "position": {
+          "x": 564,
+          "y": 14,
+          "width": 80,
+          "height": 32
+        }
+      },
+      {
+        "type": "ia.input.button",
+        "props": {
+          "text": "Fleet",
+          "style": {
+            "backgroundColor": "transparent",
+            "color": "#AAAAAA",
+            "fontSize": "11px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "letterSpacing": "1px",
+            "textTransform": "uppercase",
+            "border": "none",
+            "borderRadius": "1px",
+            "cursor": "pointer"
+          }
+        },
+        "meta": {
+          "name": "btn"
+        },
+        "position": {
+          "x": 652,
+          "y": 14,
+          "width": 80,
+          "height": 32
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#00D4AA",
+            "borderRadius": "50%"
+          }
+        },
+        "meta": {
+          "name": "dot"
+        },
+        "position": {
+          "x": 1160,
+          "y": 26,
+          "width": 8,
+          "height": 8
+        },
+        "children": []
+      },
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "NOMINAL",
+          "style": {
+            "color": "#00D4AA",
+            "fontSize": "10px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "2px",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 1174,
+          "y": 0,
+          "width": 90,
+          "height": 60
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#252525",
+            "borderRadius": "0px"
+          }
+        },
+        "meta": {
+          "name": "rect"
+        },
+        "position": {
+          "x": 0,
+          "y": 59,
+          "width": 1280,
+          "height": 1
+        },
+        "children": []
+      }
+    ]
+  }
+}

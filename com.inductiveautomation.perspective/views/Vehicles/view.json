@@ -1,0 +1,2978 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 1280,
+      "height": 900
+    }
+  },
+  "root": {
+    "type": "ia.container.coord",
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "children": [
+      {
+        "type": "ia.display.view",
+        "props": {
+          "path": "Components/Nav",
+          "style": {}
+        },
+        "meta": {
+          "name": "embed"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 60
+        }
+      },
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "VEHICLE STATUS",
+          "style": {
+            "color": "#FFFFFF",
+            "fontSize": "22px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "4px",
+            "fontWeight": "700",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 24,
+          "y": 84,
+          "width": 500,
+          "height": 28
+        }
+      },
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "FALCON 9 · FALCON HEAVY · STARSHIP",
+          "style": {
+            "color": "#666666",
+            "fontSize": "10px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "2px",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 24,
+          "y": 116,
+          "width": 600,
+          "height": 14
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#1A1A1A",
+            "borderRadius": "0px"
+          }
+        },
+        "meta": {
+          "name": "rect"
+        },
+        "position": {
+          "x": 24,
+          "y": 144,
+          "width": 1232,
+          "height": 1
+        },
+        "children": []
+      },
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "FALCON 9 BOOSTER FLEET",
+          "style": {
+            "color": "#666666",
+            "fontSize": "10px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "3px",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 24,
+          "y": 162,
+          "width": 400,
+          "height": 14
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 24,
+          "y": 184,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1058",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 19",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "JRTI — At Sea",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 276,
+          "y": 184,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1060",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 18",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "OCISLY — Port Canaveral",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 528,
+          "y": 184,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1061",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 15",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "REFURBISHING",
+              "style": {
+                "color": "#FFB300",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SpaceX Hangar 2, KSC",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 780,
+          "y": 184,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1062",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 16",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SLC-40, CCAFS",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 1032,
+          "y": 184,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1067",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 14",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SLC-4E, Vandenberg",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 24,
+          "y": 338,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1071",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 12",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STANDBY",
+              "style": {
+                "color": "#666666",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SpaceX Hangar, CCAFS",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 276,
+          "y": 338,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1073",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 8",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "En route to OCISLY",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 528,
+          "y": 338,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1077",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 4",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LC-39A Integration",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 780,
+          "y": 338,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1085",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 3",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "REFURBISHING",
+              "style": {
+                "color": "#FFB300",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SpaceX Hangar 1, KSC",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 1032,
+          "y": 338,
+          "width": 238,
+          "height": 138
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1087",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 210,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 3",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 210,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 210,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SLC-40, CCAFS — VIAS",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 210,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#1A1A1A",
+            "borderRadius": "0px"
+          }
+        },
+        "meta": {
+          "name": "rect"
+        },
+        "position": {
+          "x": 24,
+          "y": 506,
+          "width": 1232,
+          "height": 1
+        },
+        "children": []
+      },
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "FALCON HEAVY",
+          "style": {
+            "color": "#666666",
+            "fontSize": "10px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "3px",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 24,
+          "y": 522,
+          "width": 300,
+          "height": 14
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 24,
+          "y": 542,
+          "width": 290,
+          "height": 120
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1052",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 262,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 5",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 262,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 262,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LC-39A, Integration",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 262,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 330,
+          "y": 542,
+          "width": 290,
+          "height": 120
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "B1053",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 262,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FLIGHT 5",
+              "style": {
+                "color": "#666666",
+                "fontSize": "10px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 262,
+              "height": 14
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 60,
+              "width": 262,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 72,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "ACTIVE",
+              "style": {
+                "color": "#00D4AA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "1px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 86,
+              "width": 120,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 108,
+              "width": 70,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LC-39A, Integration",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 120,
+              "width": 262,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 636,
+          "y": 542,
+          "width": 290,
+          "height": 120
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "FALCON HEAVY",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "16px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "fontWeight": "700",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 14,
+              "width": 240,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SIDE CORES PAIRED",
+              "style": {
+                "color": "#666666",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 38,
+              "width": 240,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 14,
+              "y": 56,
+              "width": 262,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 68,
+              "width": 80,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#000000",
+                "border": "1px solid #00D4AA",
+                "borderRadius": "1px"
+              }
+            },
+            "meta": {
+              "name": "coord"
+            },
+            "position": {
+              "x": 14,
+              "y": 82,
+              "width": 90,
+              "height": 22
+            },
+            "children": [
+              {
+                "type": "ia.display.label",
+                "props": {
+                  "text": "READY",
+                  "style": {
+                    "color": "#00D4AA",
+                    "fontSize": "10px",
+                    "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                    "textAlign": "center",
+                    "letterSpacing": "2px",
+                    "fontWeight": "700",
+                    "textTransform": "uppercase"
+                  }
+                },
+                "meta": {
+                  "name": "lbl"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 90,
+                  "height": 22
+                }
+              }
+            ]
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "NEXT",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 14,
+              "y": 110,
+              "width": 80,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "GOES-U · Jul 14",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 104,
+              "y": 110,
+              "width": 200,
+              "height": 12
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#1A1A1A",
+            "borderRadius": "0px"
+          }
+        },
+        "meta": {
+          "name": "rect"
+        },
+        "position": {
+          "x": 24,
+          "y": 678,
+          "width": 1232,
+          "height": 1
+        },
+        "children": []
+      },
+      {
+        "type": "ia.display.label",
+        "props": {
+          "text": "STARSHIP SYSTEM",
+          "style": {
+            "color": "#666666",
+            "fontSize": "10px",
+            "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+            "textAlign": "left",
+            "letterSpacing": "3px",
+            "textTransform": "uppercase"
+          }
+        },
+        "meta": {
+          "name": "lbl"
+        },
+        "position": {
+          "x": 24,
+          "y": 694,
+          "width": 300,
+          "height": 14
+        }
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 24,
+          "y": 714,
+          "width": 580,
+          "height": 140
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SHIP 35",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "18px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 14,
+              "width": 200,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STARSHIP UPPER STAGE",
+              "style": {
+                "color": "#666666",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 38,
+              "width": 260,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 20,
+              "y": 56,
+              "width": 540,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 68,
+              "width": 80,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#000000",
+                "border": "1px solid #FFB300",
+                "borderRadius": "1px"
+              }
+            },
+            "meta": {
+              "name": "coord"
+            },
+            "position": {
+              "x": 20,
+              "y": 82,
+              "width": 110,
+              "height": 22
+            },
+            "children": [
+              {
+                "type": "ia.display.label",
+                "props": {
+                  "text": "FLIGHT TEST",
+                  "style": {
+                    "color": "#FFB300",
+                    "fontSize": "10px",
+                    "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                    "textAlign": "center",
+                    "letterSpacing": "2px",
+                    "fontWeight": "700",
+                    "textTransform": "uppercase"
+                  }
+                },
+                "meta": {
+                  "name": "lbl"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 110,
+                  "height": 22
+                }
+              }
+            ]
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 160,
+              "y": 68,
+              "width": 100,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "Starbase, Boca Chica, TX",
+              "style": {
+                "color": "#AAAAAA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 160,
+              "y": 82,
+              "width": 360,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "IFT-9 PREPARATION",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 112,
+              "width": 400,
+              "height": 14
+            }
+          }
+        ]
+      },
+      {
+        "type": "ia.container.coord",
+        "props": {
+          "style": {
+            "backgroundColor": "#0D0D0D",
+            "border": "1px solid #1A1A1A",
+            "borderRadius": "1px"
+          }
+        },
+        "meta": {
+          "name": "coord"
+        },
+        "position": {
+          "x": 630,
+          "y": 714,
+          "width": 580,
+          "height": 140
+        },
+        "children": [
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "BOOSTER 14",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": "18px",
+                "fontFamily": "'D-DIN Exp', 'Share Tech Mono', 'Courier New', monospace",
+                "textAlign": "left",
+                "letterSpacing": "normal",
+                "fontWeight": "700"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 14,
+              "width": 250,
+              "height": 20
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "SUPER HEAVY BOOSTER",
+              "style": {
+                "color": "#666666",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 38,
+              "width": 260,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#252525",
+                "borderRadius": "0px"
+              }
+            },
+            "meta": {
+              "name": "rect"
+            },
+            "position": {
+              "x": 20,
+              "y": 56,
+              "width": 540,
+              "height": 1
+            },
+            "children": []
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "STATUS",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 68,
+              "width": 80,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.container.coord",
+            "props": {
+              "style": {
+                "backgroundColor": "#000000",
+                "border": "1px solid #1A90FF",
+                "borderRadius": "1px"
+              }
+            },
+            "meta": {
+              "name": "coord"
+            },
+            "position": {
+              "x": 20,
+              "y": 82,
+              "width": 110,
+              "height": 22
+            },
+            "children": [
+              {
+                "type": "ia.display.label",
+                "props": {
+                  "text": "STACKING",
+                  "style": {
+                    "color": "#1A90FF",
+                    "fontSize": "10px",
+                    "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                    "textAlign": "center",
+                    "letterSpacing": "2px",
+                    "fontWeight": "700",
+                    "textTransform": "uppercase"
+                  }
+                },
+                "meta": {
+                  "name": "lbl"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 110,
+                  "height": 22
+                }
+              }
+            ]
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "LOCATION",
+              "style": {
+                "color": "#333333",
+                "fontSize": "9px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "2px",
+                "textTransform": "uppercase"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 160,
+              "y": 68,
+              "width": 100,
+              "height": 12
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "Starbase, Boca Chica, TX",
+              "style": {
+                "color": "#AAAAAA",
+                "fontSize": "12px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 160,
+              "y": 82,
+              "width": 360,
+              "height": 16
+            }
+          },
+          {
+            "type": "ia.display.label",
+            "props": {
+              "text": "INTEGRATION IN PROGRESS",
+              "style": {
+                "color": "#666666",
+                "fontSize": "11px",
+                "fontFamily": "D-DIN, 'Barlow', 'Helvetica Neue', Arial, sans-serif",
+                "textAlign": "left",
+                "letterSpacing": "normal"
+              }
+            },
+            "meta": {
+              "name": "lbl"
+            },
+            "position": {
+              "x": 20,
+              "y": 112,
+              "width": 400,
+              "height": 14
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

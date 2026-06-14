@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "/": {
+      "title": "Overview",
+      "viewPath": "Overview"
+    },
+    "/launches": {
+      "title": "Launch Manifest",
+      "viewPath": "Launches"
+    },
+    "/vehicles": {
+      "title": "Vehicle Status",
+      "viewPath": "Vehicles"
+    },
+    "/pads": {
+      "title": "Launch Pads",
+      "viewPath": "Pads"
+    },
+    "/fleet": {
+      "title": "Fleet Status",
+      "viewPath": "Fleet"
+    },
+    "/events": {
+      "title": "Events",
+      "viewPath": "Events"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "bottom": [],
+    "left": [],
+    "right": []
+  }
+}

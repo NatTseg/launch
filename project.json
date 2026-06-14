@@ -1,0 +1,7 @@
+{
+  "title": "launch",
+  "description": "Launch Operations Control — SpaceX Style",
+  "parent": "",
+  "enabled": true,
+  "inheritable": false
+}
